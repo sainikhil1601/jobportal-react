@@ -1,0 +1,67 @@
+
+
+/* Apply some basic styles to the form */
+.post-job-container {
+    width:500px !important;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background: -webkit-linear-gradient(left, #bfc5d5, #2b84c997);
+}
+
+h1 {
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the error messages */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+button[type="submit"] {
+    background-color: #07396f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #97a2ae;
+}
+
+/* Add any additional styling specific to this page here */
+body{
+   
+}
+.header-buttons {
+    display: flex;
+    gap: 10px; /* Adjust the spacing as needed */
+}
